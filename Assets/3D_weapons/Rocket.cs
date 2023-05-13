@@ -5,7 +5,7 @@ public class Rocket : MonoBehaviour
 
 
     AudioSource audio;
-   [SerializeField]  AudioSource audioChild;
+ 
 
     MeshRenderer mr;
     SphereCollider collider;
@@ -19,8 +19,6 @@ public class Rocket : MonoBehaviour
     {
         audio = GetComponent<AudioSource>();
 
-        audioChild = GetComponent<AudioSource>();
-
         mr = GetComponent<MeshRenderer>();
         collider = GetComponent<SphereCollider>();
 
@@ -32,15 +30,7 @@ public class Rocket : MonoBehaviour
     {
         Destroy(gameObject, timer);
 
-        if (Input.GetKeyDown(KeyCode.L))
-        {
-            mr.enabled = false;
-            collider.enabled = false;
-
-            audioChild.Play();
-        }
-
-
+   
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -53,25 +43,14 @@ public class Rocket : MonoBehaviour
             enemyLife.DecreaseHealth(damage);
             mr.enabled = false;
             collider.enabled = false;
-
-            audioChild.Play();
-            
-
-
-            Destroy(gameObject,1);
-
-
-
-
+ 
+            Destroy(gameObject,1.5f);
 
         }
-        else { return; }
-
-        //  a célpontot lökje arrébb a robbanása
-
+       
 
     }
 
-
+  
 
 }

@@ -24,7 +24,7 @@ public class AI : MonoBehaviour
     //Protocol Red (min: transform.position, max: t.p + 10,0,10)
     Vector3 borderPositive;
     Vector3 borderNegative;
-    Transform npc;
+    
     public bool redCode;
 
 
@@ -35,7 +35,7 @@ public class AI : MonoBehaviour
     {
        
 
-        pursuit = speed * 2 * Time.deltaTime;
+        pursuit = 4 * Time.deltaTime;
         acc = speed  * Time.deltaTime;
         checkpointStart_reached = true;
 
@@ -46,10 +46,6 @@ public class AI : MonoBehaviour
         vectorCheckpointII = transform.position + new Vector3(10,0,0);   
 
 
-        borderPositive = transform.position + new Vector3(5,0,5);
-        //  borderNegative = 
-        borderNegative = transform.position - new Vector3(5,0,5);
-        borderPositive = transform.position + new Vector3(13,0,13);
 
 
 
@@ -59,19 +55,9 @@ public class AI : MonoBehaviour
     void Update()
     {
        
-        ProtocolWhite();      
-        ProtocolRed();
-        ProtocolYellow();
-
-        
-
-
-
-
+        ProtocolWhite();              
     }
 
-
-    
 
 
     void ProtocolYellow()
@@ -102,14 +88,14 @@ public class AI : MonoBehaviour
         if (redCode)
         {
 
-            Debug.Log("Red Active");
+           
             checkpointStart_reached = false;
             checkpointI_reached = false;
             checkpointII_reached = false;
-            transform.position = Vector3.MoveTowards(transform.position, npc.position, pursuit);
+           // transform.position = Vector3.MoveTowards(transform.position, player.transform.position, pursuit);
 
 
-            yellowCode = (npc.transform.position - transform.position).magnitude > 7 ? true : false;
+            //yellowCode = (player.transform.transform.position - transform.position).magnitude > 7 ? true : false;
             redCode = yellowCode ? false : true;
            
 
@@ -118,15 +104,24 @@ public class AI : MonoBehaviour
     }
 
     void ProtocolWhite()
-    { 
+    {
+
+
         Rotate();
         FirstCheckpoint();   
         SecondCheckpoint();
-        StartCheckpoint();  
+        StartCheckpoint();
+
+        /*
+        if ((transform.position - player.transform.position).magnitude <= 7)
+        {          redCode = true;      }
+        */
     }
 
     void Rotate()
-    {       Vector3 direction = new Vector3();
+
+    {   Vector3 direction = new Vector3();
+
         if(checkpointStart_reached)
         direction = vectorCheckpointI - transform.position;
 
@@ -136,8 +131,8 @@ public class AI : MonoBehaviour
         if(checkpointII_reached)
         direction = vectorStart - transform.position;
 
-       if (redCode)
-        direction = npc.position - transform.position;
+      // if (redCode)
+        //direction = player.transform.position - transform.position;
 
         transform.rotation = Quaternion.LookRotation(direction);
     }
@@ -206,21 +201,23 @@ public class AI : MonoBehaviour
 
     
 
-    private void OnCollisionEnter(Collision collision)
+   
+
+    private void OnTriggerEnter(Collider other)
     {
-        npc = collision.transform;
-
-        if (collision.gameObject.tag == "Player")
-        {
-            Debug.Log("red");
-            redCode = true;
-
+        if(other.CompareTag("Player"))
+         {
+            Debug.Log("Attacking");
+          //  player.GetHurt(3);
+        
+        
         }
+
 
     }
 
 
 
-   
+
 }
 

@@ -1,10 +1,12 @@
-
+ 
 using UnityEngine;
 
 public class HealPackPickUp : MonoBehaviour
 {
    [SerializeField] GameObject playerCam;
-   [SerializeField] PlayerController playerHealth;
+  // [SerializeField] PlayerController playerHealth;
+
+    [SerializeField] Player_Life playerHealth;
 
     public bool largeHealthPack;
     public bool mediumHealthPack;

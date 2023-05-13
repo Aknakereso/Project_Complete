@@ -88,12 +88,12 @@ public class AimerShooter : MonoBehaviour
 
 
         SwitchOffWeapons();
-       
-        actualPistolAmmo = maxPistolAmmo;
-        actualShotgunAmmo = maxShotgunAmmo;
 
-        ScreenDataManager.instanceHandler.AmmunationReport(actualPistolAmmo); 
-        ScreenDataManager.instanceHandler.ShotgunAmmunationReport(actualShotgunAmmo);
+        actualPistolAmmo = 2;
+        actualShotgunAmmo = 7;
+
+      ScreenDataManager.instanceHandler.AmmunationReport(actualPistolAmmo); 
+      ScreenDataManager.instanceHandler.ShotgunAmmunationReport(actualShotgunAmmo);
 
     }
     void Update()
@@ -103,7 +103,7 @@ public class AimerShooter : MonoBehaviour
         PistolShot();
         ShotgunShot();
 
-
+        
     }
 
 
@@ -224,7 +224,8 @@ public class AimerShooter : MonoBehaviour
 
            
             actualPistolAmmo--;
-            ScreenDataManager.instanceHandler.AmmunationReport(actualPistolAmmo);
+
+            ScreenDataManager.instanceHandler.AmmunationReport(actualPistolAmmo); 
        
 
         }
@@ -290,11 +291,13 @@ public class AimerShooter : MonoBehaviour
             }
             else { return; }
 
+         ScreenDataManager.instanceHandler.AmmunationReport(actualPistolAmmo);
+
             Destroy(pu);
         }
         else { return; }
 
-        ScreenDataManager.instanceHandler.AmmunationReport(actualPistolAmmo);
+       
 
 
     }
@@ -304,11 +307,18 @@ public class AimerShooter : MonoBehaviour
         if (!weHavePistol)
         {
             weHavePistol = p;
+
+            ScreenDataManager.instanceHandler.PistolPickUp(weHavePistol);
+            
+
             Destroy(pu);
+
+
+
         }
         else { return; }
 
-        ScreenDataManager.instanceHandler.PistolPickUp(weHavePistol);
+        
 
     }
 
@@ -328,11 +338,15 @@ public class AimerShooter : MonoBehaviour
             }
             else { return; }
 
+
+            ScreenDataManager.instanceHandler.ShotgunAmmunationReport(actualShotgunAmmo);
+
+
             Destroy(pu);
         }
         else { return; }
 
-        ScreenDataManager.instanceHandler.ShotgunAmmunationReport(actualShotgunAmmo);
+       
     }
 
     public void PickUpShotgun(bool s, GameObject pu) // ------
@@ -341,12 +355,17 @@ public class AimerShooter : MonoBehaviour
         if (!weHaveShotgun)
         {
           weHaveShotgun = s;
+
+
+           ScreenDataManager.instanceHandler.ShotgunPickUp(weHaveShotgun);
+
           Destroy(pu);
+
         }
         else { return; }
     
-        ScreenDataManager.instanceHandler.ShotgunPickUp(weHaveShotgun);
-
+      
+      
     }
 
 

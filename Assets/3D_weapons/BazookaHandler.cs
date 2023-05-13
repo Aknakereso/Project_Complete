@@ -24,7 +24,7 @@ public class BazookaHandler : MonoBehaviour
 
     private void Awake()
     {
-        actualBazookaAmmo += maxBazookaAmmo;
+     
     }
 
 
@@ -34,13 +34,15 @@ public class BazookaHandler : MonoBehaviour
         audio = GetComponent<AudioSource>();
 
 
-        
+        ScreenDataManager.instanceHandler.BazookaAmmunationReport(actualBazookaAmmo);
 
     }
 
     // Update is called once per frame
     void Update()
-    {       if (actualBazookaAmmo < 0)     {          actualBazookaAmmo = 0;       }
+    {    
+        if (actualBazookaAmmo < 0) 
+        {  actualBazookaAmmo = 0;       }
 
 
         BazookaAnim();
@@ -53,7 +55,7 @@ public class BazookaHandler : MonoBehaviour
     void BazookaAnim()
     {
 
-        if (Input.GetKey(KeyCode.W))
+        if (Input.GetKeyDown(KeyCode.W))
         {
             anim.SetBool("Walk", true);
 
@@ -70,13 +72,14 @@ public class BazookaHandler : MonoBehaviour
 
         if (readyToLaunch && actualBazookaAmmo > 0)
         {
-            if (Input.GetMouseButtonDown(0))
+            if (Input.GetMouseButtonDown(0)) // átirni
             {
                 anim.SetTrigger("Bang");
                 audio.Play();
 
                 newRocket = Instantiate(rocket, exit.position, exit.rotation);
                 newRocket.SetActive(true);
+                newRocket.transform.localScale = new Vector3(0.5f,0.5f,0.5f);
                 rocketRB = newRocket.GetComponent<Rigidbody>();
                 rocketRB.velocity = transform.forward * speed;
 
@@ -103,12 +106,15 @@ public class BazookaHandler : MonoBehaviour
                 actualBazookaAmmo = maxBazookaAmmo;
             }
 
+            ScreenDataManager.instanceHandler.BazookaAmmunationReport(actualBazookaAmmo);
+
+
             Destroy(pu);
 
         }
         else { return; }
 
-        ScreenDataManager.instanceHandler.BazookaAmmunationReport(actualBazookaAmmo);
+        
     }
 
 

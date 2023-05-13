@@ -61,9 +61,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerCam: {fileID: 0}
   playerHealth: {fileID: 0}
-  largeHealthPack: 1
+  largeHealthPack: 0
   mediumHealthPack: 0
-  smallHealthPack: 0
+  smallHealthPack: 1
 --- !u!1 &444483151249696446
 GameObject:
   m_ObjectHideFlags: 0

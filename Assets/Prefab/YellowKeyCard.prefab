@@ -113,5 +113,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerCam: {fileID: 0}
   red: 0
-  yellow: 0
-  blue: 1
+  yellow: 1
+  blue: 0

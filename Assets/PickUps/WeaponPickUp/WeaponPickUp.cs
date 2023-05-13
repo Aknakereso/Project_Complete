@@ -14,6 +14,19 @@ public class WeaponPickUp : MonoBehaviour
 
     public int ammo;
 
+    private void Update()
+    {
+        if (!bazooka)
+        {
+            transform.rotation = aimerShooter.transform.rotation;
+        }
+        
+
+
+    }
+
+
+
     private void OnTriggerEnter(Collider other)
     {
 
@@ -29,14 +42,14 @@ public class WeaponPickUp : MonoBehaviour
 
             }
 
-            if (pistol) // pistol
+            if (pistol)
             {
                 aimerShooter.PickUpPistol(pistol, gameObject);
                 aimerShooter.PickUpPistolAmmo(ammo, gameObject);
 
             }
 
-            if (shotgun)  // shotgun
+            if (shotgun)
             {
 
                 aimerShooter.PickUpShotgun(shotgun, gameObject);

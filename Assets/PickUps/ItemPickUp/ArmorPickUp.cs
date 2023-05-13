@@ -4,7 +4,9 @@ using UnityEngine;
 public class ArmorPickUp : MonoBehaviour
 {
     [SerializeField] GameObject playerCam;
-    [SerializeField] PlayerController playerArmor;
+   // [SerializeField] PlayerController playerArmor;
+
+    [SerializeField] Player_Life playerArmor;
 
     public bool largeArmor;
     public bool mediumArmor;
