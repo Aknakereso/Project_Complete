@@ -128,7 +128,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 9087371988820578627, guid: 5fa8e21165112d743889bcba1d83891f, type: 3}
   m_PrefabInstance: {fileID: 1007801106}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &214248498 stripped
+--- !u!114 &214248497 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 9087371988820578633, guid: 5fa8e21165112d743889bcba1d83891f, type: 3}
   m_PrefabInstance: {fileID: 1007801106}
@@ -284,11 +284,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9087371989006462323, guid: 5fa8e21165112d743889bcba1d83891f, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 9087371989006462323, guid: 5fa8e21165112d743889bcba1d83891f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.2
+      value: -1.97
       objectReference: {fileID: 0}
     - target: {fileID: 9087371989006462323, guid: 5fa8e21165112d743889bcba1d83891f, type: 3}
       propertyPath: m_LocalPosition.y
@@ -296,7 +296,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9087371989006462323, guid: 5fa8e21165112d743889bcba1d83891f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 18.4
+      value: -12.02
       objectReference: {fileID: 0}
     - target: {fileID: 9087371989006462323, guid: 5fa8e21165112d743889bcba1d83891f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -328,12 +328,73 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5fa8e21165112d743889bcba1d83891f, type: 3}
---- !u!4 &1525434880 stripped
+--- !u!1001 &1021705859
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2559572218327068347, guid: 724e1f2a9f38850429c0e06359e407ab, type: 3}
+      propertyPath: m_Name
+      value: ind_Pause
+      objectReference: {fileID: 0}
+    - target: {fileID: 5314861734632480468, guid: 724e1f2a9f38850429c0e06359e407ab, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5314861734632480468, guid: 724e1f2a9f38850429c0e06359e407ab, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 296.74402
+      objectReference: {fileID: 0}
+    - target: {fileID: 5314861734632480468, guid: 724e1f2a9f38850429c0e06359e407ab, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 174.8402
+      objectReference: {fileID: 0}
+    - target: {fileID: 5314861734632480468, guid: 724e1f2a9f38850429c0e06359e407ab, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.5191884
+      objectReference: {fileID: 0}
+    - target: {fileID: 5314861734632480468, guid: 724e1f2a9f38850429c0e06359e407ab, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5314861734632480468, guid: 724e1f2a9f38850429c0e06359e407ab, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5314861734632480468, guid: 724e1f2a9f38850429c0e06359e407ab, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5314861734632480468, guid: 724e1f2a9f38850429c0e06359e407ab, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5314861734632480468, guid: 724e1f2a9f38850429c0e06359e407ab, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5314861734632480468, guid: 724e1f2a9f38850429c0e06359e407ab, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5314861734632480468, guid: 724e1f2a9f38850429c0e06359e407ab, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5621727534302648616, guid: 724e1f2a9f38850429c0e06359e407ab, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 724e1f2a9f38850429c0e06359e407ab, type: 3}
+--- !u!4 &1539243008 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9087371989006462323, guid: 5fa8e21165112d743889bcba1d83891f, type: 3}
   m_PrefabInstance: {fileID: 1007801106}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1525434881 stripped
+--- !u!114 &1539243009 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1525434881, guid: 5fa8e21165112d743889bcba1d83891f, type: 3}
   m_PrefabInstance: {fileID: 1007801106}
@@ -344,22 +405,303 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df053efad0ae5214a8fbd451fed6c69b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &2090148187 stripped
+--- !u!1 &1870860053 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9087371988096268263, guid: 5fa8e21165112d743889bcba1d83891f, type: 3}
   m_PrefabInstance: {fileID: 1007801106}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2090148189 stripped
+--- !u!114 &1870860055 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 9087371988096268269, guid: 5fa8e21165112d743889bcba1d83891f, type: 3}
   m_PrefabInstance: {fileID: 1007801106}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2090148187}
+  m_GameObject: {fileID: 1870860053}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3502bd87ea16de74ab045699f7758bdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &1979407861248539970
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 788106258383878377, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 1870860055}
+    - target: {fileID: 1223681716806961816, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 1870860053}
+    - target: {fileID: 1223681716806961816, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
+      propertyPath: playerHealth
+      value: 
+      objectReference: {fileID: 1539243009}
+    - target: {fileID: 1223681717762376533, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 1870860053}
+    - target: {fileID: 1223681717762376533, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
+      propertyPath: playerHealth
+      value: 
+      objectReference: {fileID: 1539243009}
+    - target: {fileID: 1223681717866261248, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 1870860053}
+    - target: {fileID: 1223681717866261248, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
+      propertyPath: playerHealth
+      value: 
+      objectReference: {fileID: 1539243009}
+    - target: {fileID: 2786637774045646716, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
+      propertyPath: aimerShooter
+      value: 
+      objectReference: {fileID: 1870860055}
+    - target: {fileID: 2786637774045646716, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
+      propertyPath: bazookahandler
+      value: 
+      objectReference: {fileID: 214248497}
+    - target: {fileID: 3197636392911296715, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 1870860053}
+    - target: {fileID: 3197636392911296715, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
+      propertyPath: playerHealth
+      value: 
+      objectReference: {fileID: 1539243009}
+    - target: {fileID: 3197636393126165734, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 1870860053}
+    - target: {fileID: 3197636393126165734, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
+      propertyPath: playerHealth
+      value: 
+      objectReference: {fileID: 1539243009}
+    - target: {fileID: 3197636394260996490, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 1870860053}
+    - target: {fileID: 3197636394260996490, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
+      propertyPath: playerHealth
+      value: 
+      objectReference: {fileID: 1539243009}
+    - target: {fileID: 3276322476716046986, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
+      propertyPath: aimerShooter
+      value: 
+      objectReference: {fileID: 1870860055}
+    - target: {fileID: 3276322476716046986, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
+      propertyPath: bazookahandler
+      value: 
+      objectReference: {fileID: 214248497}
+    - target: {fileID: 3773289962320307769, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 1870860055}
+    - target: {fileID: 4241158229032331961, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
+      propertyPath: aimerShooter
+      value: 
+      objectReference: {fileID: 1870860055}
+    - target: {fileID: 4241158229032331961, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
+      propertyPath: bazookahandler
+      value: 
+      objectReference: {fileID: 214248497}
+    - target: {fileID: 4241158229672556601, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
+      propertyPath: aimerShooter
+      value: 
+      objectReference: {fileID: 1870860055}
+    - target: {fileID: 4241158229672556601, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
+      propertyPath: bazookahandler
+      value: 
+      objectReference: {fileID: 214248497}
+    - target: {fileID: 4475647330275691431, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
+      propertyPath: m_Name
+      value: level_1_filled
+      objectReference: {fileID: 0}
+    - target: {fileID: 4475647330275691432, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4475647330275691432, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4475647330275691432, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4475647330275691432, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4475647330275691432, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4475647330275691432, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4475647330275691432, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4475647330275691432, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4475647330275691432, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4475647330275691432, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4475647330275691432, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5475372673688701975, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
+      propertyPath: aimerShooter
+      value: 
+      objectReference: {fileID: 1870860055}
+    - target: {fileID: 5475372673688701975, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
+      propertyPath: bazookahandler
+      value: 
+      objectReference: {fileID: 214248497}
+    - target: {fileID: 5606492752554406683, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 1870860053}
+    - target: {fileID: 5606492752554406683, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
+      propertyPath: playerArmor
+      value: 
+      objectReference: {fileID: 1539243009}
+    - target: {fileID: 5606492753336432384, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 1870860053}
+    - target: {fileID: 5606492753336432384, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
+      propertyPath: playerArmor
+      value: 
+      objectReference: {fileID: 1539243009}
+    - target: {fileID: 5606492753356348911, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 1870860053}
+    - target: {fileID: 5606492753356348911, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
+      propertyPath: playerArmor
+      value: 
+      objectReference: {fileID: 1539243009}
+    - target: {fileID: 6031256889521253920, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1539243008}
+    - target: {fileID: 6031256889521253924, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6031256890789530126, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1539243008}
+    - target: {fileID: 6278539794478599588, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 1870860053}
+    - target: {fileID: 6278539794478599588, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
+      propertyPath: playerArmor
+      value: 
+      objectReference: {fileID: 1539243009}
+    - target: {fileID: 6278539794492394867, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 1870860053}
+    - target: {fileID: 6278539794492394867, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
+      propertyPath: playerArmor
+      value: 
+      objectReference: {fileID: 1539243009}
+    - target: {fileID: 6278539796385695137, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 1870860053}
+    - target: {fileID: 6278539796385695137, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
+      propertyPath: playerArmor
+      value: 
+      objectReference: {fileID: 1539243009}
+    - target: {fileID: 6284939742549744067, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
+      propertyPath: aimerShooter
+      value: 
+      objectReference: {fileID: 1870860055}
+    - target: {fileID: 6284939742549744067, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
+      propertyPath: bazookahandler
+      value: 
+      objectReference: {fileID: 214248497}
+    - target: {fileID: 7098207708611129972, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
+      propertyPath: aimerShooter
+      value: 
+      objectReference: {fileID: 1870860055}
+    - target: {fileID: 7098207708611129972, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
+      propertyPath: bazookahandler
+      value: 
+      objectReference: {fileID: 214248497}
+    - target: {fileID: 7857234010568826004, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 1870860053}
+    - target: {fileID: 7857234010568826004, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
+      propertyPath: playerHealth
+      value: 
+      objectReference: {fileID: 1539243009}
+    - target: {fileID: 7857234010921801826, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 1870860053}
+    - target: {fileID: 7857234010921801826, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
+      propertyPath: playerHealth
+      value: 
+      objectReference: {fileID: 1539243009}
+    - target: {fileID: 7857234011222838057, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 1870860053}
+    - target: {fileID: 7857234011222838057, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
+      propertyPath: playerHealth
+      value: 
+      objectReference: {fileID: 1539243009}
+    - target: {fileID: 7943942181711827085, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
+      propertyPath: aimerShooter
+      value: 
+      objectReference: {fileID: 1870860055}
+    - target: {fileID: 7943942181711827085, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
+      propertyPath: bazookahandler
+      value: 
+      objectReference: {fileID: 214248497}
+    - target: {fileID: 8160619347690239523, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
+      propertyPath: aimerShooter
+      value: 
+      objectReference: {fileID: 1870860055}
+    - target: {fileID: 8160619347690239523, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
+      propertyPath: bazookahandler
+      value: 
+      objectReference: {fileID: 214248497}
+    - target: {fileID: 8529663091623048765, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 1870860055}
+    - target: {fileID: 8827468088084859893, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
+      propertyPath: aimerShooter
+      value: 
+      objectReference: {fileID: 1870860055}
+    - target: {fileID: 8827468088084859893, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
+      propertyPath: bazookahandler
+      value: 
+      objectReference: {fileID: 214248497}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
 --- !u!1001 &5232457566359568452
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -381,7 +723,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4044484752094427740, guid: 75166eeede0d1594ab1c43c4cc2fdfbe, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4044484752094427740, guid: 75166eeede0d1594ab1c43c4cc2fdfbe, type: 3}
       propertyPath: m_AnchorMax.x
@@ -461,283 +803,6 @@ PrefabInstance:
       objectReference: {fileID: 214248496}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75166eeede0d1594ab1c43c4cc2fdfbe, type: 3}
---- !u!1001 &7035486402262841892
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 84470957257450301, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
-      propertyPath: playerCam
-      value: 
-      objectReference: {fileID: 2090148189}
-    - target: {fileID: 446756381200540451, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
-      propertyPath: aimerShooter
-      value: 
-      objectReference: {fileID: 2090148189}
-    - target: {fileID: 446756381200540451, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
-      propertyPath: bazookahandler
-      value: 
-      objectReference: {fileID: 214248498}
-    - target: {fileID: 1004898602087898869, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
-      propertyPath: aimerShooter
-      value: 
-      objectReference: {fileID: 2090148189}
-    - target: {fileID: 1004898602087898869, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
-      propertyPath: bazookahandler
-      value: 
-      objectReference: {fileID: 214248498}
-    - target: {fileID: 1581481231414847348, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
-      propertyPath: aimerShooter
-      value: 
-      objectReference: {fileID: 2090148189}
-    - target: {fileID: 1581481231414847348, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
-      propertyPath: bazookahandler
-      value: 
-      objectReference: {fileID: 214248498}
-    - target: {fileID: 1823368321034454413, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
-      propertyPath: aimerShooter
-      value: 
-      objectReference: {fileID: 2090148189}
-    - target: {fileID: 1823368321034454413, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
-      propertyPath: bazookahandler
-      value: 
-      objectReference: {fileID: 214248498}
-    - target: {fileID: 1907813428488424802, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
-      propertyPath: playerCam
-      value: 
-      objectReference: {fileID: 2090148187}
-    - target: {fileID: 1907813428488424802, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
-      propertyPath: playerHealth
-      value: 
-      objectReference: {fileID: 1525434881}
-    - target: {fileID: 1907813428807584148, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
-      propertyPath: playerCam
-      value: 
-      objectReference: {fileID: 2090148187}
-    - target: {fileID: 1907813428807584148, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
-      propertyPath: playerHealth
-      value: 
-      objectReference: {fileID: 1525434881}
-    - target: {fileID: 1907813429194219049, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
-      propertyPath: playerCam
-      value: 
-      objectReference: {fileID: 2090148187}
-    - target: {fileID: 1907813429194219049, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
-      propertyPath: playerHealth
-      value: 
-      objectReference: {fileID: 1525434881}
-    - target: {fileID: 2327232792618912963, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
-      propertyPath: aimerShooter
-      value: 
-      objectReference: {fileID: 2090148189}
-    - target: {fileID: 2327232792618912963, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
-      propertyPath: bazookahandler
-      value: 
-      objectReference: {fileID: 214248498}
-    - target: {fileID: 2329117664926423155, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
-      propertyPath: playerCam
-      value: 
-      objectReference: {fileID: 2090148187}
-    - target: {fileID: 2329117664926423155, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
-      propertyPath: playerArmor
-      value: 
-      objectReference: {fileID: 1525434881}
-    - target: {fileID: 2329117664939890852, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
-      propertyPath: playerCam
-      value: 
-      objectReference: {fileID: 2090148187}
-    - target: {fileID: 2329117664939890852, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
-      propertyPath: playerArmor
-      value: 
-      objectReference: {fileID: 1525434881}
-    - target: {fileID: 2329117666291241121, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
-      propertyPath: playerCam
-      value: 
-      objectReference: {fileID: 2090148187}
-    - target: {fileID: 2329117666291241121, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
-      propertyPath: playerArmor
-      value: 
-      objectReference: {fileID: 1525434881}
-    - target: {fileID: 2648185503271353120, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 1525434880}
-    - target: {fileID: 2648185504121118478, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 1525434880}
-    - target: {fileID: 4232585355617363483, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
-      propertyPath: playerCam
-      value: 
-      objectReference: {fileID: 2090148187}
-    - target: {fileID: 4232585355617363483, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
-      propertyPath: playerArmor
-      value: 
-      objectReference: {fileID: 1525434881}
-    - target: {fileID: 4232585356952871424, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
-      propertyPath: playerCam
-      value: 
-      objectReference: {fileID: 2090148187}
-    - target: {fileID: 4232585356952871424, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
-      propertyPath: playerArmor
-      value: 
-      objectReference: {fileID: 1525434881}
-    - target: {fileID: 4232585356962302191, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
-      propertyPath: playerCam
-      value: 
-      objectReference: {fileID: 2090148187}
-    - target: {fileID: 4232585356962302191, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
-      propertyPath: playerArmor
-      value: 
-      objectReference: {fileID: 1525434881}
-    - target: {fileID: 4363711989575440663, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
-      propertyPath: aimerShooter
-      value: 
-      objectReference: {fileID: 2090148189}
-    - target: {fileID: 4363711989575440663, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
-      propertyPath: bazookahandler
-      value: 
-      objectReference: {fileID: 214248498}
-    - target: {fileID: 4840808547887313721, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
-      propertyPath: playerCam
-      value: 
-      objectReference: {fileID: 2090148189}
-    - target: {fileID: 5291688915426303655, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
-      propertyPath: m_Name
-      value: level_1_filled
-      objectReference: {fileID: 0}
-    - target: {fileID: 5291688915426303656, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5291688915426303656, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5291688915426303656, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 5291688915426303656, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5291688915426303656, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5291688915426303656, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5291688915426303656, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5291688915426303656, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5291688915426303656, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5291688915426303656, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5291688915426303656, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5595991302394822585, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
-      propertyPath: aimerShooter
-      value: 
-      objectReference: {fileID: 2090148189}
-    - target: {fileID: 5595991302394822585, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
-      propertyPath: bazookahandler
-      value: 
-      objectReference: {fileID: 214248498}
-    - target: {fileID: 5595991302891253049, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
-      propertyPath: aimerShooter
-      value: 
-      objectReference: {fileID: 2090148189}
-    - target: {fileID: 5595991302891253049, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
-      propertyPath: bazookahandler
-      value: 
-      objectReference: {fileID: 214248498}
-    - target: {fileID: 5899516268648880764, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
-      propertyPath: aimerShooter
-      value: 
-      objectReference: {fileID: 2090148189}
-    - target: {fileID: 5899516268648880764, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
-      propertyPath: bazookahandler
-      value: 
-      objectReference: {fileID: 214248498}
-    - target: {fileID: 6486519849174495114, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
-      propertyPath: aimerShooter
-      value: 
-      objectReference: {fileID: 2090148189}
-    - target: {fileID: 6486519849174495114, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
-      propertyPath: bazookahandler
-      value: 
-      objectReference: {fileID: 214248498}
-    - target: {fileID: 6562628505681275366, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
-      propertyPath: playerCam
-      value: 
-      objectReference: {fileID: 2090148187}
-    - target: {fileID: 6562628505681275366, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
-      propertyPath: playerHealth
-      value: 
-      objectReference: {fileID: 1525434881}
-    - target: {fileID: 6562628505858706891, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
-      propertyPath: playerCam
-      value: 
-      objectReference: {fileID: 2090148187}
-    - target: {fileID: 6562628505858706891, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
-      propertyPath: playerHealth
-      value: 
-      objectReference: {fileID: 1525434881}
-    - target: {fileID: 6562628506655716490, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
-      propertyPath: playerCam
-      value: 
-      objectReference: {fileID: 2090148187}
-    - target: {fileID: 6562628506655716490, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
-      propertyPath: playerHealth
-      value: 
-      objectReference: {fileID: 1525434881}
-    - target: {fileID: 7460228765867712408, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
-      propertyPath: playerCam
-      value: 
-      objectReference: {fileID: 2090148187}
-    - target: {fileID: 7460228765867712408, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
-      propertyPath: playerHealth
-      value: 
-      objectReference: {fileID: 1525434881}
-    - target: {fileID: 7460228765979229696, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
-      propertyPath: playerCam
-      value: 
-      objectReference: {fileID: 2090148187}
-    - target: {fileID: 7460228765979229696, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
-      propertyPath: playerHealth
-      value: 
-      objectReference: {fileID: 1525434881}
-    - target: {fileID: 7460228766015723093, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
-      propertyPath: playerCam
-      value: 
-      objectReference: {fileID: 2090148187}
-    - target: {fileID: 7460228766015723093, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
-      propertyPath: playerHealth
-      value: 
-      objectReference: {fileID: 1525434881}
-    - target: {fileID: 9051251153561644521, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
-      propertyPath: playerCam
-      value: 
-      objectReference: {fileID: 2090148189}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c21d065069aa9794c9d2c7234d2a925e, type: 3}
 --- !u!95 &8123800053385323104 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 4044484752990675492, guid: 75166eeede0d1594ab1c43c4cc2fdfbe, type: 3}

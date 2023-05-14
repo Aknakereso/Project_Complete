@@ -288,16 +288,18 @@ public class AimerShooter : MonoBehaviour
             {
                 actualPistolAmmo = maxPistolAmmo;
 
-            }
-            else { return; }
+                Destroy(pu);
 
-         ScreenDataManager.instanceHandler.AmmunationReport(actualPistolAmmo);
+            }
+           
+
+         
 
             Destroy(pu);
         }
-        else { return; }
-
        
+
+       ScreenDataManager.instanceHandler.AmmunationReport(actualPistolAmmo);
 
 
     }
@@ -335,14 +337,19 @@ public class AimerShooter : MonoBehaviour
             {
                 actualShotgunAmmo = maxShotgunAmmo;
 
+
+                Destroy(pu);
             }
             else { return; }
 
 
-            ScreenDataManager.instanceHandler.ShotgunAmmunationReport(actualShotgunAmmo);
+            
 
 
             Destroy(pu);
+
+            ScreenDataManager.instanceHandler.ShotgunAmmunationReport(actualShotgunAmmo); // amint max ammo t elérjük
+
         }
         else { return; }
 

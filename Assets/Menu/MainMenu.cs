@@ -6,11 +6,17 @@ using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour
 {
 
+    private void Start()
+    {
+        Cursor.lockState = CursorLockMode.Confined;
+    }
     public void StartGame()
     {
 
         SceneManager.LoadScene(1); // egyes indexû scene betöltõdik
-       // SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+      //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+
+
     }
 
     public void QuitGame()
@@ -20,7 +26,14 @@ public class MainMenu : MonoBehaviour
         Application.Quit();
         Debug.Log("Quit 2");
     }
-    
+
+
+    public void BackToMenu()
+    {
+
+        SceneManager.LoadScene(0); 
+      
+    }
 
 
 }

@@ -22,11 +22,7 @@ public class Exit : MonoBehaviour
         }
         else { weReachedExit = false; }
 
-        if (Input.GetKeyDown(KeyCode.E)) // wow mûködik
-        {
-            subtitle = true;
-            
-        }
+        
 
  
         if (SceneManager.sceneCount <= SceneManager.GetActiveScene().buildIndex )
