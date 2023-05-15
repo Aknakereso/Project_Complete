@@ -9,15 +9,9 @@ EditorBuildSettings:
     path: Assets/Menu_scene.unity
     guid: 90b0ae24defff5448936fa0b36d077ed
   - enabled: 1
-    path: Assets/Main.unity
-    guid: 236e2f4e5b6b8494ea49cca15dea0b66
+    path: Assets/Save_and_Load.unity
+    guid: 85b66cd4aebb5bd43bfd96bb224d598b
   - enabled: 1
-    path: Assets/SecondLevel.unity
-    guid: 1fb9f34480f32ef46b8fa32ab4946484
-  - enabled: 1
-    path: Assets/ThirdLevel.unity
-    guid: d363862ab71ff6a4583545499c63592e
-  - enabled: 1
-    path: Assets/Congratulation.unity
-    guid: cd9d205d0bd69c245b23e51f3f2efcd4
+    path: Assets/Addd_scene_forSave_andLoad.unity
+    guid: 684f8586dcc278542b4cea1ef52f69d5
   m_configObjects: {}

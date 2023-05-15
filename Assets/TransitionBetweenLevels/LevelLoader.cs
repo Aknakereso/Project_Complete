@@ -11,6 +11,8 @@ public class LevelLoader : MonoBehaviour
     [SerializeField] Exit weReachedExitScript;
     [SerializeField] GameObject pressE_txt;
 
+   // [SerializeField] PlayerData
+
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.E) && weReachedExitScript.weReachedExit) // bool ra teszem.
@@ -18,6 +20,8 @@ public class LevelLoader : MonoBehaviour
 
             pressE_txt.SetActive(false);
             LoadNextLevel();
+
+
            
 
         }
